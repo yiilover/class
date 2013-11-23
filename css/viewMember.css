@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+
+#TbviewMember{
+
+	/* border:1px solid #000;*/
+	width:800px;
+	height:600px;
+	border:1px solid rgb(76, 153, 197);	
+}
+#TbviewMember td{
+
+	border:1px solid rgb(76, 153, 197);
+	border-collapse:collapse; 
+
+}
+#photo{
+
+
+	width:150px;
+	height:100px;
+
+
+}
+#remark{
+
+	height:100px;
+
+
+}
+#caption{
+
+	
+	font-size:24px;
+	background-color:white;
+	font-weight:bolder;
+
+}
+.span{
+
+	font-size:16px;
+	font-weight:bolder;
+	height:30px;
+	
+}
+.attributs{
+
+	font-size:18px;
+	margin-left:10px;
+	font-weight:bolder;
+	color:rgb(76, 153, 197);
+}
+#remark_span{
+
+	color:red;
+
+}
+
+#update{
+
+	
+	width:100px;
+	height:30px;
+	border:1px solid #ccc;
+	background-color:white;
+	
+
+}
+#update:hover{
+
+
+	background-color:rgb(239,239,239);
+
+
+}
+a{
+
+
+	text-decoration:none;
+	font-size:16px;
+	font-weight:bolder;
+	line-height:16px;
+	color:rgb(76, 153, 197)
+
+
+}

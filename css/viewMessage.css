@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+
+#all{
+
+
+ border:1px solid #ccc;
+
+
+
+}
+.info{
+
+
+	background-color:rgb(239, 239, 239);
+	height:45px;
+
+}
+#title{
+
+	text-align:center;
+	line-height:25px;
+	font-size:14px;
+	font-weight:bolder;
+
+}
+.some{
+
+	text-align:center;
+	font-size:12px;
+	font-weight:normal;
+	padding-top:1px;
+	color:rgb(150,150,150)
+
+}
+
+#reply_some{
+
+
+	text-align:right;
+
+
+}
+
+#content{
+
+
+	line-height:20px;
+	text-indent:20px;
+	letter-spacing:1px;;
+
+}
+#reply{
+
+	background-color:rgb(239, 239, 239);
+	line-height:20px;
+	text-indent:20px;
+	padding:15px 0px 0px 0px;
+
+}
+
+#form{
+
+	background-color:rgb(239, 239, 239);
+	margin-top:20px;
+
+}
+
+label{
+
+	display:block;
+
+}
+
+#red{
+
+	color:red;
+
+
+}
+
+#reply_text{
+
+
+	width:200px;
+	height:100px;
+	text-indent:10px;
+
+
+}
+#sub,#button{
+
+
+	width:60px;
+	height:25px;
+	line-height:25px;
+	border:1px solid rgb(127, 157, 185);
+	background-color: white;
+	margin:5px 0 5px 0;
+	font-size:14px
+
+}
+#sub:hover{
+
+
+	background-color: rgb(239, 239, 239);
+
+
+}
+
+#button{
+
+margin-left:600px;
+
+width:150px;
+
+}
+

@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0; padding:0;}
+
+body {font:12px Tahoma, "宋体", sans-serif; 	text-align:left; background:url(../images/top_bg.gif) top left repeat-x;}
+
+label, input, select {vertical-align:middle; font-size:12px; padding:2px;}
+input[type=button], input[type=submit] {cursor:pointer;}
+
+ul {list-style:none;}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {color:#000; text-decoration:none;}
+a:hover {color:#369; text-decoration:underline;}
+
+
+
+#top {width:960px; height:100px;  margin:0 auto 20px;}
+#top .logo {height:81px; font-size:24px; line-height:81px; float:left; padding-left:10px;}
+#top .func {float:right; padding:10px 10px 0 0;}
+#top .func a {color:#999;}
+#top .func span {margin-right:10px;}
+#top .func span b {font-weight:normal; color:#f60;}
+
+#content {width:960px; margin:0 auto; min-height:500px; height:auto!important; height:500px; overflow:auto;}
+
+#leftmenu {float:left; width:140px; background-color:#f7f7f7; }
+#leftmenu dl {width:116px; margin:0 auto; padding-bottom:20px;}
+#leftmenu dl dt {width:100%; height:28px; background:url(../images/menu_dt_bg.gif) top left no-repeat; text-align:center; line-height:2em; padding-top:1px;  font-weight:bold; margin:10px 0 4px;}
+#leftmenu dl dd a {line-height:2em; display:block;  background:url(../images/menu_dd_bg.gif) 10px center no-repeat; padding-left:30px;}
+#leftmenu dl dd a:hover {background:#d6f6ff url(../images/menu_dd_bg.gif) 10px center no-repeat; ;}
+
+#rightcontent { float:right; width:810px; overflow:auto; color:#333; margin-bottom:10px;}
+h2 {font-size:14px; height:32px; line-height:30px; text-indent:10px; background:url(../images/crumbs_bg.gif) top left repeat-x; border:1px solid #CCC; overflow:auto;  margin:0 auto;}
+
+
+.mainbody {overflow:hidden; margin:0 auto; padding:5px 10px;}
+h3 {font-size:12px; line-height:2.5em; border-bottom:1px solid #ccc; margin-bottom:10px;}
+
+#bottom {clear:both; width:960px; border-top:1px solid #ccc;  margin:50px auto 0;}
+#bottom p {line-height:2em; text-align:right; color:#999;}
+
+
+.toolbtn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #f6f6f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6');
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#666666;
+	font-family:arial;
+	font-size:12px;
+	font-weight:normal;
+	padding:4px 12px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.toolbtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #f6f6f6 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff');
+	background-color:#f6f6f6;
+	text-decoration:none;
+}.toolbtn:active {
+	position:relative;
+	top:1px;
+}
+
+.toolbar { padding:5px 0; overflow:hidden; float:right; display:inline;}
+.toolbar input {float:left; margin-right:10px; font-size:12px; padding:2px 12px;}
+.toolbar form {float:left;}
+.toolbar span { margin-right:6px; height:30px; line-height:20px;}
+.toolbar span, .toolbar a {*vertical-align:middle;}
+
+
+.bluebtn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}.bluebtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}.bluebtn:active {
+	position:relative;
+	top:1px;
+}
+
+.save {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	font-weight:normal;
+	padding:4px 12px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #287ace;
+}.save:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+	background-color:#4197ee;
+	color:#ffffff;
+}.save:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*hint*/
+.flash-error{background:#ffeff6 url(../images/ico_error.png) 6px center no-repeat; color:#900; padding:8px 0 8px 24px;}
+.flash-notice{background:#feffed url(../images/ico_notice.png) 6px center no-repeat;  color:#660; padding:8px 0 8px 24px;}
+.flash-success{background:#edfeff url(../images/ico_success.png) 6px center no-repeat; color:#059; padding:8px 0 8px 24px;}
+
+/*login*/
+div.form .rememberMe label {display:inline; font-weight:normal; }
+div.form .rememberMe input { padding-top:8px;}
+div.login span.required {display:none;}
+div.buttons input {
+    cursor: pointer;
+    font-size: 12px;
+    padding: 4px 20px;
+    width: 100px;
+
+}
+/*hacks*/
+.fix {
+	zoom: 1;
+}
+.fix:after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+
